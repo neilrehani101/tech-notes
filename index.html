@@ -39,7 +39,7 @@
             <div class="d-flex">
                 <input id="inputsearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button id="search" class="btn btn-outline-success" type="submit" style="margin-left: 10px;">Search</button>
-                <button id="search" class="btn btn-outline-success" type="submit" style="margin-left: 10px;" onClick="window.location.reload();">Reset</button>
+                <button id="search" class="btn btn-outline-success" type="submit" style="margin-left: 10px;" onClick="showNotes();">Reset</button>
             </form>
         </div>
     </nav>
@@ -69,6 +69,12 @@
         <div id="alert">
             <div id="deleted" class="alert alert-success" role="alert">
                 Deleted note successfully
+            </div>
+
+        </div>
+        <div id="alert">
+            <div id="edited" class="alert alert-success" role="alert">
+                Edited note successfully
             </div>
 
         </div>
